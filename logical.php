@@ -1,0 +1,35 @@
+<?php
+$username = "admin";
+$password = "12345";
+
+if($username == 'admin' && $password == '1234')
+{
+	echo "Welcome";
+}
+else
+{
+	echo "please check username or password <br/>";
+}
+
+
+if($username == 'admi' || $password == '12345')
+{
+	echo "Welcome";
+}
+else
+{
+	echo "please check username or password <br/>";
+}
+
+if($username == 'admin' || $password !== '12345')
+{
+	echo "Welcome";
+}
+else
+{
+	echo "please check username or password";
+}
+
+
+
+?>
