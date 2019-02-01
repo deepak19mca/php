@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>login form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
 
